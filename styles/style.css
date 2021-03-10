@@ -1,0 +1,27 @@
+.masonry{
+    columns: 4;
+    column-gap: 16px;
+}
+
+@media (max-width: 1200px){
+    .masonry{
+        columns: 3;
+    }
+}
+
+@media (max-width: 992px){
+    .masonry{
+        columns: 2;
+    }
+}
+
+.masonry .grid-images{
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.masonry .grid-images img{
+    width: 100%;
+    border-radius: 5px;
+}
